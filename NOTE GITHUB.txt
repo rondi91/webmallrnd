@@ -30,7 +30,7 @@ alias graph="git log --all --decorate --oneline --graph"  ==>membuat alias grah
 
 git branch dosen  ++menmbahkan branch dengan nama dosen
 git branch   ==> menampilkan branch
-git branch -d dosen  ==> menghapus brach dosen
+git branch -d main  ==> menghapus brach dosen
 git branch --merged  ==> mengetahui brach yang sudah di merge   
 
 git merge dosen  ==> mengabung branch master ke brach dosen
@@ -45,6 +45,14 @@ git chekout nocommit(7667b)    ==>pindah ke suatu commit
 
 
 git fetch namausergit
+
+
+
+alias gb="git branch "
+alias gbm="git branch master"
+alias gcm="git checkout master"
+alias gc="git checkout "
+
 
 
 
