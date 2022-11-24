@@ -15,7 +15,9 @@ class ProductController extends Controller
      */
     public function index()
     {
-        //
+        return view('dashboard',[
+            'products'=>Product::take(5)->get(),
+        ]);
     }
 
     /**
