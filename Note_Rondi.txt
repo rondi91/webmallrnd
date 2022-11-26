@@ -1,2 +1,8 @@
-alias pa="php artisan migrate:fresh"
+alias pa="php artisan"
 alias pams="php artisan migrate:fresh --seed"
+alias pamc="php artisan make:controller"
+alias pamm="php artisan make:model"
+
+
+
+php artisan vendor:publish --provider="Darryldecode\Cart\CartServiceProvider" --tag="config"

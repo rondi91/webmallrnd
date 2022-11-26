@@ -48,5 +48,15 @@ git fetch namausergit
 
 
 
+alias gb="git branch "
+alias gbm="git branch master"
+alias gcm="git checkout master"
+alias gc="git checkout "
+alias graph="git log --all --decorate --oneline --graph"
+alias gmit="git commit -m"
+
+
+
+
 
 

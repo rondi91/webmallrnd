@@ -20,6 +20,7 @@ class ProductFactory extends Factory
             'name' => $this->faker->sentence(2),
             'description' => $this->faker->sentence(20),
             'price' => $this->faker->numberBetween(100, 5000),
+            'image' => "'https://cdn.pixabay.com/photo/2016/12/06/18/27/milk-1887234__340.jpg'"
         ];
     }
 }

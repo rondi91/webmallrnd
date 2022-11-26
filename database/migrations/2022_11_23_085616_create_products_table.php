@@ -19,6 +19,7 @@ return new class extends Migration
             $table->mediumText('description');
             $table->float('price');
             $table->string('cover_img')->nullable();
+            $table->string('image')->nullable();
             // $table->unsignedBigInteger('shop_id')->nullable();
             // $table->foreign('shop_id')->references('id')->on('shops')->onDelete('cascade');
 
