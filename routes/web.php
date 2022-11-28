@@ -1,6 +1,8 @@
 <?php
 
 use App\Http\Controllers\CartController;
+use App\Http\Controllers\OrderController;
+use App\Http\Controllers\PayPalController;
 use App\Http\Controllers\ProfileController;
 use App\Models\Product;
 use Illuminate\Support\Facades\Route;
@@ -43,5 +45,10 @@ Route::post('cart/destroy', [CartController::class, 'destroy'])->name('cart.remo
 // Route::get('cart/destroy/id', [CartController::class, 'destroy'])->name('cart.remove');
 Route::post('clear', [CartController::class, 'clearAllCart'])->name('cart.clear');
 
+Route::get('/cart/checkout', [CartController::class, 'checkout'])->name('cart.checkout');
+Route::resource('orders', OrderController::class);
 
+Route::get('paypal/checkout/{order}', [PayPalController::class, 'getExpressCheckout'])->name('paypal.checkout');
+Route::get('paypal/checkout-success/', [PayPalController::class, 'getExpressCheckoutSuccess'])->name('paypal.success');
+Route::get('paypal/checkout-cancel', [PayPalController::class, 'cancelPage'])->name('paypal.cancel');
 require __DIR__.'/auth.php';

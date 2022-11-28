@@ -72,4 +72,9 @@ class CartController extends Controller
 
         return redirect()->route('cart.list');
     }
+
+    public function checkout()
+    {
+        return view('cart.checkout');
+    }
 }

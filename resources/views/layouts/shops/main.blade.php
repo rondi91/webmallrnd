@@ -10,19 +10,19 @@
         <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.png">
 		
 		<!-- all css here -->
-        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-        <link rel="stylesheet" href="assets/css/magnific-popup.css">
-        <link rel="stylesheet" href="assets/css/animate.css">
-        <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
-        <link rel="stylesheet" href="assets/css/themify-icons.css">
-        <link rel="stylesheet" href="assets/css/pe-icon-7-stroke.css">
-        <link rel="stylesheet" href="assets/css/icofont.css">
-        <link rel="stylesheet" href="assets/css/meanmenu.min.css">
-        <link rel="stylesheet" href="assets/css/jquery-ui.css">
-        <link rel="stylesheet" href="assets/css/bundle.css">
-        <link rel="stylesheet" href="assets/css/style.css">
-        <link rel="stylesheet" href="assets/css/responsive.css">
-        <script src="assets/js/vendor/modernizr-2.8.3.min.js"></script>
+        <link rel="stylesheet" href="{{ asset('assets/css/bootstrap.min.css')}}">
+        <link rel="stylesheet" href="{{ asset('assets/css/magnific-popup.css')}}">
+        <link rel="stylesheet" href="{{ asset('assets/css/animate.css')}}">
+        <link rel="stylesheet" href="{{ asset('assets/css/owl.carousel.min.css')}}">
+        <link rel="stylesheet" href="{{ asset('assets/css/themify-icons.css')}}">
+        <link rel="stylesheet" href="{{ asset('assets/css/pe-icon-7-stroke.css')}}">
+        <link rel="stylesheet" href="{{ asset('assets/css/icofont.css')}}">
+        <link rel="stylesheet" href="{{ asset('assets/css/meanmenu.min.css')}}">
+        <link rel="stylesheet" href="{{ asset('assets/css/jquery-ui.css')}}">
+        <link rel="stylesheet" href="{{ asset('assets/css/bundle.css')}}">
+        <link rel="stylesheet" href="{{ asset('assets/css/style.css')}}">
+        <link rel="stylesheet" href="{{ asset('assets/css/responsive.css')}}">
+        <script src="{{ asset('assets/js/vendor/modernizr-2.8.3.min.js')}}"></script>
     </head>
     <body>
         <!--[if lt IE 8]>
@@ -69,7 +69,7 @@
                                             <th></th>
                                             <th>
                                                 <a href="#">Remove <span>x</span></a>
-                                                <img src="assets/img/cart/4.jpg" alt="">
+                                                <img src="{{ asset('assets/img/cart/4.jpg')}}" alt="">
                                                 <p>Blush Sequin Top </p>
                                                 <span>$75.99</span>
                                                 <a class="compare-btn" href="#">Add to cart</a>
@@ -145,17 +145,17 @@
 		
 		
 		<!-- all js here -->
-        <script src="assets/js/vendor/jquery-1.12.0.min.js"></script>
-        <script src="assets/js/popper.js"></script>
-        <script src="assets/js/bootstrap.min.js"></script>
-        <script src="assets/js/jquery.magnific-popup.min.js"></script>
-        <script src="assets/js/isotope.pkgd.min.js"></script>
-        <script src="assets/js/imagesloaded.pkgd.min.js"></script>
-        <script src="assets/js/jquery.counterup.min.js"></script>
-        <script src="assets/js/waypoints.min.js"></script>
-        <script src="assets/js/ajax-mail.js"></script>
-        <script src="assets/js/owl.carousel.min.js"></script>
-        <script src="assets/js/plugins.js"></script>
-        <script src="assets/js/main.js"></script>
+        <script src="{{ asset('assets/js/vendor/jquery-1.12.0.min.js')}}"></script>
+        <script src="{{ asset('assets/js/popper.js')}}"></script>
+        <script src="{{ asset('assets/js/bootstrap.min.js')}}"></script>
+        <script src="{{ asset('assets/js/jquery.magnific-popup.min.js')}}"></script>
+        <script src="{{ asset('assets/js/isotope.pkgd.min.js')}}"></script>
+        <script src="{{ asset('assets/js/imagesloaded.pkgd.min.js')}}"></script>
+        <script src="{{ asset('assets/js/jquery.counterup.min.js')}}"></script>
+        <script src="{{ asset('assets/js/waypoints.min.js')}}"></script>
+        <script src="{{ asset('assets/js/ajax-mail.js')}}"></script>
+        <script src="{{ asset('assets/js/owl.carousel.min.js')}}"></script>
+        <script src="{{ asset('assets/js/plugins.js')}}"></script>
+        <script src="{{ asset('assets/js/main.js')}}"></script>
     </body>
 </html>

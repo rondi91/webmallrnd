@@ -80,7 +80,7 @@
                                     <li>Subtotal<span>Rp. {{ Cart::getTotal() }} </span></li>
                                     <li>Total<span>100.00</span></li>
                                 </ul>
-                                <a href="#">Proceed to checkout</a>
+                                <a href="{{ route('cart.checkout') }}">Proceed to checkout</a>
                             </div>
                         </div>
                     </div>
