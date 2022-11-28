@@ -45,3 +45,8 @@ Route::post('clear', [CartController::class, 'clearAllCart'])->name('cart.clear'
 
 
 require __DIR__.'/auth.php';
+
+
+Route::group(['prefix' => 'admin'], function () {
+    Voyager::routes();
+});
