@@ -52,3 +52,4 @@ Route::get('paypal/checkout/{order}', [PayPalController::class, 'getExpressCheck
 Route::get('paypal/checkout-success/', [PayPalController::class, 'getExpressCheckoutSuccess'])->name('paypal.success');
 Route::get('paypal/checkout-cancel', [PayPalController::class, 'cancelPage'])->name('paypal.cancel');
 require __DIR__.'/auth.php';
+    
