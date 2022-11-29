@@ -53,3 +53,7 @@ Route::get('paypal/checkout-success/', [PayPalController::class, 'getExpressChec
 Route::get('paypal/checkout-cancel', [PayPalController::class, 'cancelPage'])->name('paypal.cancel');
 require __DIR__.'/auth.php';
     
+
+Route::group(['prefix' => 'admin'], function () {
+    Voyager::routes();
+});
